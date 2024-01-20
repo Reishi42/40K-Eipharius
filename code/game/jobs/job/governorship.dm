@@ -3,7 +3,7 @@
 var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 
 /datum/job/governor
-	title = "Planetary Governor"
+	title = "General Governor"
 	department = "Planetary Governor"
 	head_position = 1
 	department_flag = COM
@@ -53,8 +53,8 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	head_position = 1
 	department_flag = COM
 	social_class = SOCIAL_CLASS_HIGH
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	open_when_dead = 0
 	supervisors = "Yourself. Make sure you get that inheritance..."
 	selection_color = "#6220a0"
@@ -246,8 +246,8 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 /datum/job/servant
 	title = "Servant"
 	department_flag = COM
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "The Governor and Heir"
 	selection_color = "#6220a0"
 	economic_modifier = 5

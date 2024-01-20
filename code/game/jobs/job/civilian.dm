@@ -46,8 +46,8 @@
 /datum/job/hydro
 	title = "Vane Bondsman"
 	department_flag = SUP
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "House Vane."
 	selection_color = "#315dd4"
 	latejoin_at_spawnpoints = TRUE
@@ -107,7 +107,7 @@
 			U.add_skills(rand(6,8),rand(6,8),rand(4,6),rand(5,6),rand(2,6)) //melee, ranged, med, eng, surgery
 			new /obj/item/clothing/gloves/thick(src.loc)
 			equip_to_slot_or_store_or_drop(new /obj/item/clothing/under/rank/victorian, slot_w_uniform)
-			new /obj/item/device/flashlight/lantern(src.loc) 
+			new /obj/item/device/flashlight/lantern(src.loc)
 			new /obj/item/clothing/shoes/jackboots/noble(src.loc)
 			new /obj/item/clothing/head/helmet/seolhelm(src.loc)
 			new /obj/item/clothing/suit/armor/seolarmor(src.loc)
@@ -120,7 +120,7 @@
 			new /obj/item/clothing/suit/armor/hauberk(src.loc)
 			new /obj/item/farmshovel(src.loc)
 			new /obj/item/storage/plants(src.loc)
-			new /obj/item/device/flashlight/lantern(src.loc) 
+			new /obj/item/device/flashlight/lantern(src.loc)
 			new /obj/item/device/analyzer/plant_analyzer(src.loc)
 			new /obj/item/clothing/gloves/thick/botany(src.loc)
 			new /obj/item/melee/classic_baton(src.loc)

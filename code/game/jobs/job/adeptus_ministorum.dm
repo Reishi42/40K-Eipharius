@@ -380,8 +380,8 @@
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 22
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "The Abbess or Deacon"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7
@@ -434,8 +434,8 @@
 	department = list("Ministorum", "Medical")
 	department_flag = MED
 	minimal_player_age = 14
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "The Ordos and Ecclesiarchy"
 	selection_color = "#FCFBFA"
 	economic_modifier = 7

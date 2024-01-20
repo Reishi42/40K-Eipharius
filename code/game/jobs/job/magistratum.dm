@@ -4,8 +4,8 @@
 	title = "Planetary Marshal" // Corrupted. Cult. Loyal.
 	head_position = 1
 	supervisors = "the Lord Governor and Segmentum Command"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	social_class = SOCIAL_CLASS_HIGH
 	selection_color = "#f0ac25"
 	outfit_type = /decl/hierarchy/outfit/job/ig/marshal
@@ -47,8 +47,8 @@
 	title = "Planetary Investigator"
 	head_position = 1
 	supervisors = "the Lord Governor and Marshall"
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	social_class = SOCIAL_CLASS_HIGH
 	selection_color = "#f0ac25"
 	outfit_type = /decl/hierarchy/outfit/job/ig/investigator
@@ -87,8 +87,8 @@
 /datum/job/enforcer
 	title = "Enforcer" // Cult. Criminal. Loyal.
 	supervisors = "the Planetary Marshal"
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 0
+	spawn_positions = 0
 	social_class = SOCIAL_CLASS_MED
 	selection_color = "#f0ac25"
 	outfit_type = /decl/hierarchy/outfit/job/ig/enforcer

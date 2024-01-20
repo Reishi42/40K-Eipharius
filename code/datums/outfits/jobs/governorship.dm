@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/governor
-	name = OUTFIT_JOB_NAME("Planetary Governor")
+	name = OUTFIT_JOB_NAME("General Governor")
 	head = /obj/item/clothing/head/rt
 	neck = /obj/item/reagent_containers/food/drinks/canteen
 	suit = /obj/item/clothing/suit/armor/governor

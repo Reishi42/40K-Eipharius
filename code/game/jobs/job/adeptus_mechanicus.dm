@@ -55,8 +55,8 @@
 	department = "Engineering"
 	department_flag = ENG
 	social_class = SOCIAL_CLASS_MED
-	total_positions = 2
-	spawn_positions = 2
+	total_positions = 1
+	spawn_positions = 1
 	supervisors = "You obey the Biologis and Explorator"
 	selection_color = "#FF3A3A"
 	economic_modifier = 5
@@ -99,8 +99,8 @@
 	department = "Engineering"
 	department_flag = ENG
 	social_class = SOCIAL_CLASS_MED
-	total_positions = 3
-	spawn_positions = 3
+	total_positions = 0
+	spawn_positions = 0
 	supervisors = "You obey the Biologis and Explorator, as well as the Tech Priests."
 	selection_color = "#FF3A3A"
 	economic_modifier = 5
@@ -134,7 +134,7 @@
 		H.adjustStaminaLoss(-INFINITY) // they aren't cyborg'd enough to not need to drink. The flesh is weak.
 		to_chat(H,"<span class='danger'><b><font size=4>THE BONDSMAN</font></b></span>")
 		to_chat(H,"<span class='goodmood'>You are lifebonded to the Magos Explorator of this installation and thereby in the service of the tech priests of the Mechanicus under the Magos's command. Taken by force from your homeworld, you were plucked away from your life and indoctrinated into the cult of the Machine God. Every day is suffering and you are perhaps one of the handful left still alive from your original founding.</font></b></span>")
-			
+
 // Biologis
 
 // Magos
@@ -143,8 +143,8 @@
 	title = "Magos Biologis"
 	department = "Engineering"
 	department_flag = ENG
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	minimal_player_age = 7
 	open_when_dead = 0
 	supervisors = "the Adeptus Mechanicus and the Omnissiah."
@@ -235,8 +235,8 @@
 	title = "Skitarii"
 	department = "Science"
 	department_flag = SCI|ENG
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 0
+	spawn_positions = 0
 	minimal_player_age = 7
 	open_when_dead = 0
 	supervisors = "the Adeptus Mechanicus and Magos Biologis."
@@ -247,14 +247,14 @@
 	access = list(access_mechanicus, access_village, access_guard_common, access_medical, access_RC_announce, access_ai_upload, 56, access_heads, access_all_personal_lockers)
 	minimal_access = list(access_mechanicus, access_village, access_guard_common, access_medical, access_RC_announce, access_ai_upload, 56, access_heads, access_all_personal_lockers)
 	outfit_type = /decl/hierarchy/outfit/job/skitarii/basic
-	auto_rifle_skill = 8 
+	auto_rifle_skill = 8
 	semi_rifle_skill = 8
 	sniper_skill = 8
 	shotgun_skill = 8
 	lmg_skill = 8
 	smg_skill = 8
 	cultist_chance = 2
-	
+
 	equip(var/mob/living/carbon/human/skitarii/H)
 		..()
 		H.fully_replace_character_name("Skitarii Alpha")
